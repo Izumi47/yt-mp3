@@ -11,7 +11,7 @@ This web application converts YouTube videos to MP3 format and allows users to d
 1. Clone the repository:
     ```bash
     git clone <repository_url>
-    cd youtube-to-mp3
+    cd youtube-to-mp3/backend
     ```
 2. Install the dependencies:
     ```bash
