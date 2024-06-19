@@ -14,6 +14,9 @@ const PORT = 3000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// Serve static files from the frontend folder
+app.use(express.static(path.join(__dirname, '../frontend')));
+
 app.post('/convert', async (req, res) => {
     const youtubeURL = req.body.url;
     
